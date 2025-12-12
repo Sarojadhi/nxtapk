@@ -22,6 +22,15 @@ const Page = async () => {
   return (
     <>
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Users</h1>
+      <p>
+  {new Date().toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  })}
+</p>
+
 
       <ul
         style={{
